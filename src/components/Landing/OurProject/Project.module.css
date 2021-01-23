@@ -37,6 +37,7 @@
   flex: 0 0 auto;
   margin-right: 20px;
   position: relative;
+  z-index: 10;
 }
 
 .project_parent h3 {
@@ -64,6 +65,10 @@
   width: 100%;
 }
 
+.project1 img:hover {
+  transform: scale(1.1);
+}
+
 .overlay1 {
   position: absolute;
   top: 0;
@@ -74,4 +79,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0,0,0,0.7);
 }
