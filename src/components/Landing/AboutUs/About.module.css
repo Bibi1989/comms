@@ -33,3 +33,32 @@
   line-height: 2.5;
 }
 
+
+
+@media(max-width: 1100px) {
+  .ourStory {
+    grid-template-columns: 30% 70%;
+  }
+}
+
+@media(max-width: 760px) {
+  .aboutUs {
+    padding: 50px 10px;
+  }
+  .ourStory {
+    grid-template-columns: 1fr;
+  }
+  .ourStoryLeft {
+    display: none;
+  }
+  .ourStoryRight {
+    width: 100%;
+  }
+}
+
+@media(max-width: 560px) {
+  .ourStory {
+    grid-template-columns: 1fr;
+  }
+}
+

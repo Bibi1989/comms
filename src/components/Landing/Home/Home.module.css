@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -43,4 +43,35 @@
 .left p:last-child {
   color: var(--button-green);
   font-size: 40px;
+}
+
+@media(max-width: 1100px) {
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media(max-width: 760px) {
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px 10px;
+  }
+  .left {
+    color: white;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    width: 100%;
+  }
+  .left h1 {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    /* margin-bottom: 15px; */
+  }
+}
+
+@media(max-width: 560px) {
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

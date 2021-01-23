@@ -8,7 +8,7 @@ const Blog = () => {
     <div className={style.blog}>
       <div className={[style.blog_header_center]}>
         <div className={serviceStyle.sectionHeaderLine}></div>
-        <h3>OUR PROJECTS</h3>
+        <h3>BLOGS</h3>
       </div>
       <BlogPage />
     </div>
