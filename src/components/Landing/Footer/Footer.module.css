@@ -1,0 +1,42 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 50px 10%;
+  background-color: var(--backgound-blue);
+  color: var(--text-white);
+}
+
+.footer h3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.footer span {
+  display: block;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.location p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 169%;
+  text-align: right;
+}
+
+.location_social_btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.location_social_btns > div {
+  margin-left: 10px;
+}

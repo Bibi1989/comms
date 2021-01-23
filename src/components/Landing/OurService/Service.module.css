@@ -1,0 +1,45 @@
+.service {
+  min-height: 100vh;
+  padding: 50px 10%;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.serviceGrid .card {
+  background-color: var(--backgound-blue);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(200px 250px);
+  border-radius: 10px;
+}
+
+.serviceGrid .card .image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.serviceGrid .card .image img {
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.serviceGrid .card .image img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.serviceGrid .card .content {
+  padding: 25px;
+  color: var(--text-white);
+}
+
+.serviceGrid .card .content span {
+  text-align: end;
+  display: inline-block;
+  width: 100%;
+  color: var(--text-lemon);
+}

@@ -1,0 +1,26 @@
+:root{
+  --button-green: #4CB952;
+  --text-header-blue: #3546AC;
+  --backgound-light-grey: #f8f8f8;
+  --backgound-blue: #3546AC;
+  --text-white: white;
+  --text-lemon: #5CE563;
+  --text-light-grey: #a3a3a3;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

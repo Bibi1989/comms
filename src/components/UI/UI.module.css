@@ -1,0 +1,32 @@
+.sectionHeader {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.sectionHeader p{
+  line-height: 2;
+}
+
+.sectionHeaderAboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sectionHeaderAboutUs h3{
+  margin: 0;
+  color: var(--text-header-blue);
+}
+
+.sectionHeaderLine {
+  height: 5px;
+  width: 40px;
+  background: var(--text-header-blue);
+  margin-right: 20px;
+}
+
+.sectionHeader p {
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+.aboutUs {
+  padding: 50px 10%;
+  min-height: 100vh;
+  background-color: var(--backgound-light-grey);
+}
+
+.ourStory {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 70px;
+  padding-top: 50px;
+}
+
+.ourStoryLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ourStoryLeft img:first-child {
+  margin-bottom: 50px;
+}
+
+.ourStoryRight {
+  width: 80%;
+}
+
+.ourStoryRight h3 {
+  color: var(--text-header-blue);
+}
+
+.ourStoryRight p {
+  line-height: 2.5;
+}
+

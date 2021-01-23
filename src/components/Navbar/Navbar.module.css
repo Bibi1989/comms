@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 10vh;
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo{
+  z-index: 5;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+}
+
+.list li{
+  padding: 0 15px;
+}
