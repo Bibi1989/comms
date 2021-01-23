@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className={style.logo}>
         <img src={'./logo.svg'} alt="nav logo" width={100} />
       </div>
-      <div className='right'>
+      <div className={style.right}>
         <ul className={style.list}>
           <li>Services</li>
           <li>About Us</li>
@@ -18,6 +18,7 @@ const Navbar = () => {
           <li>Events</li>
           <li>Media</li>
         </ul>
+        <Button label="Contact Us" background="#4CB952" />
       </div>
     </nav>
   )

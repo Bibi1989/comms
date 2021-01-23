@@ -15,7 +15,9 @@ const BlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
             egestas adipiscing.
           </p>
-          <a href>READ MORE</a>
+          <div className={style.read_more}>
+            <p style={{textDecoration: 'underline'}}>READ MORE</p>{" "}<p style={{marginLeft: 10}}>&#8594;</p>
+          </div>
         </div>
       </div>
       <div className={style.blog_grid}>
@@ -29,7 +31,9 @@ const BlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
             egestas adipiscing.
           </p>
-          <a href>READ MORE</a>
+          <div className={style.read_more}>
+            <p style={{textDecoration: 'underline'}}>READ MORE</p>{" "}<p style={{marginLeft: 10}}>&#8594;</p>
+          </div>
         </div>
       </div>
       <div className={style.blog_grid}>
@@ -43,7 +47,9 @@ const BlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
             egestas adipiscing.
           </p>
-          <a href>READ MORE</a>
+          <div className={style.read_more}>
+            <p style={{textDecoration: 'underline'}}>READ MORE</p>{" "}<p style={{marginLeft: 10}}>&#8594;</p>
+          </div>
         </div>
       </div>
     </div>

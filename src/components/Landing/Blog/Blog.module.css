@@ -51,5 +51,28 @@
   font-style: normal;
   font-weight: 800;
   text-decoration: underline;
+}
+
+.read_more {
+  display: flex;
+  align-items: center;
+}
+
+.read_more p {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
   margin-top: 40px;
+  color: #4CB952;
+}
+
+.read_more span {
+  display: inline-block;
+  color: #4CB952;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 10px;
 }

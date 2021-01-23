@@ -9,7 +9,7 @@ const Button = ({
 }) => {
   return (
     <ButtonStyle onClick={onClick} background={background}>
-      {label}
+      {label} <p style={{marginLeft: 10}}>&#8594;</p>
     </ButtonStyle>
   )
 }
@@ -21,6 +21,9 @@ const ButtonStyle = styled.button`
   padding: 10px 30px;
   color: white;
   background-color: ${({background}) => background ? background : Colors.buttonGreen};
+  display: flex;
+  align-items: center;
+  height: 40px;
 `
 
 export default Button
